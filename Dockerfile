@@ -1,6 +1,8 @@
 FROM blinkt
 
-WORKDIR /root/
-COPY *.py .
+RUN apt-get install python3
 
-CMD ["python", "build_monitor.py"]
+WORKDIR /root/
+COPY *.py /root/
+
+CMD ["python3", "build_monitor.py"]
