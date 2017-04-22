@@ -16,8 +16,7 @@ class ConsoleLamps(Lamps):
         return self.num_lights
 
     def set_light(self, index, color):
-        print("lamp " + str(index) +
-              ": " + str(color))
+        print("console lamp " + str(index) + ": " + str(color))
 
 
 class BlinktLamps(Lamps):
@@ -30,5 +29,7 @@ class BlinktLamps(Lamps):
         return 8
 
     def set_light(self, index, color):
+        #print("blinkt lamp " + str(index) + ": " + str(color))
         from blinkt import set_clear_on_exit, set_pixel, show
         set_pixel(index, color[0], color[1], color[2])
+        show()

@@ -34,10 +34,14 @@ class BuildMonitor():
     def __get_color(self, title):
         if "(broken since this build)" in title:
             return red
+        if "still failing)" in title:
+            return red
         elif "(back to normal)" in title:
             return green
         elif "(stable)" in title:
             return green
+        elif "(?)" in title:
+            return cyan
         else:
             print("Unexpected title format: " + title)
             return yellow

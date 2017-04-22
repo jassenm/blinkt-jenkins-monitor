@@ -13,6 +13,7 @@ class JenkinsFeedSource(FeedSource):
         import urllib3
         pool = urllib3.PoolManager()
         response = pool.request('GET', self.baseUrl + "/rssLatest")
+        #print("Received response: \n" + response.data)
         return response.data
 
 
