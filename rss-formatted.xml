@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed 
+	xmlns="http://www.w3.org/2005/Atom">
+	<title>Example build server</title>
+	<link rel="alternate" type="text/html" href="http://foobar/"/>
+	<updated>2017-04-20T20:18:07Z</updated>
+	<author>
+		<name>Jenkins Server</name>
+	</author>
+	<id>urn:uuid:903deee0-7bfa-11db-9fe1-0800200c9a66</id>
+	<entry>
+		<title>admin-console #89 (stable)</title>
+		<link rel="alternate" type="text/html" href="http://foobar/job/admin-console/89/"/>
+		<id>tag:hudson.dev.java.net,2008:http://foobar/job/admin-console/</id>
+		<published>2017-04-20T20:18:07Z</published>
+		<updated>2017-04-20T20:18:07Z</updated>
+	</entry>
+	<entry>
+		<title>ex-accounts #13 (broken since this build)</title>
+		<link rel="alternate" type="text/html" href="http://foobar/job/ex-accounts/13/"/>
+		<id>tag:hudson.dev.java.net,2008:http://foobar/job/ex-accounts/</id>
+		<published>2016-11-22T18:50:05Z</published>
+		<updated>2016-11-22T18:50:05Z</updated>
+	</entry>
+	<entry>
+		<title>ex-discovery-monitor #11 (stable)</title>
+		<link rel="alternate" type="text/html" href="http://foobar/job/ex-discovery-monitor/11/"/>
+		<id>tag:hudson.dev.java.net,2008:http://foobar/job/ex-discovery-monitor/</id>
+		<published>2017-04-18T19:08:33Z</published>
+		<updated>2017-04-18T19:08:33Z</updated>
+	</entry>
+	<entry>
+		<title>ex-dynamo #2 (back to normal)</title>
+		<link rel="alternate" type="text/html" href="http://foobar/job/ex-dynamo/2/"/>
+		<id>tag:hudson.dev.java.net,2008:http://foobar/job/ex-dynamo/</id>
+		<published>2017-01-31T23:13:09Z</published>
+		<updated>2017-01-31T23:13:09Z</updated>
+	</entry>
+	<entry>
+		<title>ex-eventing #635 (stable)</title>
+		<link rel="alternate" type="text/html" href="http://foobar/job/ex-eventing/635/"/>
+		<id>tag:hudson.dev.java.net,2008:http://foobar/job/ex-eventing/</id>
+		<published>2017-04-11T19:11:52Z</published>
+		<updated>2017-04-11T19:11:52Z</updated>
+	</entry>
+	<entry>
+		<title>ex-gateways #31 (stable)</title>
+		<link rel="alternate" type="text/html" href="http://foobar/job/ex-gateways/31/"/>
+		<id>tag:hudson.dev.java.net,2008:http://foobar/job/ex-gateways/</id>
+		<published>2017-03-14T17:13:59Z</published>
+		<updated>2017-03-14T17:13:59Z</updated>
+	</entry>
+	<entry>
+		<title>ex-insights #4 (stable)</title>
+		<link rel="alternate" type="text/html" href="http://foobar/job/ex-insights/4/"/>
+		<id>tag:hudson.dev.java.net,2008:http://foobar/job/ex-insights/</id>
+		<published>2017-02-17T00:41:07Z</published>
+		<updated>2017-02-17T00:41:07Z</updated>
+	</entry>
+	<entry>
+		<title>ex-jobs #341 (stable)</title>
+		<link rel="alternate" type="text/html" href="http://foobar/job/ex-jobs/341/"/>
+		<id>tag:hudson.dev.java.net,2008:http://foobar/job/ex-jobs/</id>
+		<published>2017-04-19T22:43:45Z</published>
+		<updated>2017-04-19T22:43:45Z</updated>
+	</entry>
+	<entry>
+		<title>ex-metering #161 (stable)</title>
+		<link rel="alternate" type="text/html" href="http://foobar/job/ex-metering/161/"/>
+		<id>tag:hudson.dev.java.net,2008:http://foobar/job/ex-metering/</id>
+		<published>2017-03-23T22:32:34Z</published>
+		<updated>2017-03-23T22:32:34Z</updated>
+	</entry>
+	<entry>
+		<title>ex-postgres #1 (stable)</title>
+		<link rel="alternate" type="text/html" href="http://foobar/job/ex-postgres/1/"/>
+		<id>tag:hudson.dev.java.net,2008:http://foobar/job/ex-postgres/</id>
+		<published>2016-11-28T19:52:07Z</published>
+		<updated>2016-11-28T19:52:07Z</updated>
+	</entry>
+	<entry>
+		<title>ex-storage #106 (stable)</title>
+		<link rel="alternate" type="text/html" href="http://foobar/job/ex-storage/106/"/>
+		<id>tag:hudson.dev.java.net,2008:http://foobar/job/ex-storage/</id>
+		<published>2017-04-19T16:50:32Z</published>
+		<updated>2017-04-19T16:50:32Z</updated>
+	</entry>
+	<entry>
+		<title>ex-user-service #756 (stable)</title>
+		<link rel="alternate" type="text/html" href="http://foobar/job/ex-user-service/756/"/>
+		<id>tag:hudson.dev.java.net,2008:http://foobar/job/ex-user-service/</id>
+		<published>2017-04-20T20:23:40Z</published>
+		<updated>2017-04-20T20:23:40Z</updated>
+	</entry>
+</feed>
