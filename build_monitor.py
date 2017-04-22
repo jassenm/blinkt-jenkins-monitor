@@ -17,12 +17,12 @@ black = (0, 0, 0)
 
 class BuildMonitor():
 
-    def __init__(self, lampsObj: lamps.Lamps=None, feedSrc: feed_source.FeedSource=None, refreshRate: int = 30):
+    def __init__(self, lampsObj=None, feedSrc=None, refreshRate=30):
         self.lamps = lampsObj
         self.feedSource = feedSrc
         self.refreshRate = refreshRate
 
-    def start_timer(self, loopCount: int = -1):
+    def start_timer(self, loopCount=-1):
         loopIndex = 0
         while (loopCount < 0) or (loopIndex != loopCount):
             colors = self.get_latest_feed_colors()
@@ -31,7 +31,7 @@ class BuildMonitor():
             loopIndex = loopIndex + 1
             time.sleep(self.refreshRate)
 
-    def __get_color(self, title: str):
+    def __get_color(self, title):
         if "(broken since this build)" in title:
             return red
         elif "(back to normal)" in title:

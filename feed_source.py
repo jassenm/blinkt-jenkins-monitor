@@ -6,7 +6,7 @@ class FeedSource:
 
 class JenkinsFeedSource(FeedSource):
 
-    def __init__(self, baseUrl: str = None):
+    def __init__(self, baseUrl=None):
         self.baseUrl = baseUrl
 
     def get_feed_data(self):
@@ -18,7 +18,7 @@ class JenkinsFeedSource(FeedSource):
 
 class TestFeedSource(FeedSource):
 
-    def __init__(self, src: str = None):
+    def __init__(self, src=None):
         self.src = src
 
     def get_feed_data(self):
