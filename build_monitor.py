@@ -25,10 +25,16 @@ class BuildMonitor():
     def start_timer(self, loopCount=-1):
         loopIndex = 0
         while (loopCount < 0) or (loopIndex != loopCount):
+            self.lamps.turn_off()
             colors = self.get_latest_feed_colors()
             for i in range(len(colors)):
                 self.set_color(i, colors[i])
             loopIndex = loopIndex + 1
+            for i in range(1, 3):
+                time.sleep(0.1)
+                self.lamps.turn_off()
+                time.sleep(0.1)
+                self.lamps.turn_on()
             time.sleep(self.refreshRate)
 
     def __get_color(self, title):
